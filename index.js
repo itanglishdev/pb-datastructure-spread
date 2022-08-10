@@ -33,3 +33,7 @@ console.log(newCountryContainer);
 // Ex 3
 const arr4 = [8, 9, 25];
 console.log(Math.max(...arr4));
+
+// Ex 4
+
+console.log(Math.min(...arr4));
