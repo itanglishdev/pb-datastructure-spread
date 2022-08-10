@@ -48,3 +48,7 @@ console.log(personTwo);
 
 const employee = { ...person, ...job, }
 console.log(employee);
+
+employee.name = "chris"
+employee.role = "web dev"
+console.log(employee);
