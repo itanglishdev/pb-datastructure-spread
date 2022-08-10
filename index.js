@@ -29,3 +29,7 @@ console.log(allCountriesTwo);
 
 const newCountryContainer = [...asiaCountries]
 console.log(newCountryContainer);
+
+// Ex 3
+const arr4 = [8, 9, 25];
+console.log(Math.max(...arr4));
