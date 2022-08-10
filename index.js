@@ -23,3 +23,9 @@ const asiaCountriesTwo = [
 
 const allCountriesTwo = euroCountriesTwo.concat(asiaCountriesTwo)
 console.log(allCountriesTwo);
+
+
+// Ex 2
+
+const newCountryContainer = [...asiaCountries]
+console.log(newCountryContainer);
