@@ -37,3 +37,14 @@ console.log(Math.max(...arr4));
 // Ex 4
 
 console.log(Math.min(...arr4));
+
+// Ex 5
+
+const person = { name: "John" }
+const job = { role: "Teacher" }
+
+const personTwo = person
+console.log(personTwo);
+
+const employee = { ...person, ...job, }
+console.log(employee);
