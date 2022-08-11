@@ -52,3 +52,5 @@ console.log(employee);
 employee.name = "chris"
 employee.role = "web dev"
 console.log(employee);
+
+// Ex 6
