@@ -54,3 +54,19 @@ employee.role = "web dev"
 console.log(employee);
 
 // Ex 6
+
+function aWholeNumber(...elements) {
+  let sum = 0
+  let avg = 0
+
+  console.log(avg);
+  for (let i = 0; i < elements.length; i++) {
+    sum += elements[i]
+  }
+  avg = sum / elements.length
+  if (avg % 1 === 0) {
+    return true
+  } return false
+}
+
+console.log(aWholeNumber(2, 2, 2, 2));
